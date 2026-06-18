@@ -33,13 +33,3 @@ The model uses a standard Transformer Decoder architecture with positional embed
 
 ### Prerequisites
 Ensure you have Python installed along with PyTorch. You can install PyTorch via [pytorch.org](https://pytorch.org/get-started/locally/).
-
-### Installation
-1. Clone this repository to your local machine.
-2. Place your training data inside the root directory and name it `text.txt`. (A popular choice for character-level models is the "Tiny Shakespeare" dataset).
-
-### Usage
-To train the model and generate text, simply run the Python script from your terminal:
-
-```bash
-python train.py
